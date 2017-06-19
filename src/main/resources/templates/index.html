@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>Next</h1>
+
+
+<form th:action="@{/}" method="post">
+    <input type="hidden" name="token" th:value="${token}"/>
+    <input type="submit" name="next" value="next"/>
+</form>
+</body>
+</html>

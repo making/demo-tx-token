@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>Confirm</h1>
+
+
+<form th:action="@{/}" method="post">
+    <input type="hidden" name="token" th:value="${token}"/>
+    <input type="submit" value="submit"/>
+</form>
+</body>
+</html>
